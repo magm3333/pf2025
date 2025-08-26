@@ -25,3 +25,4 @@ const main = async () => {
 };
 
 main();
+

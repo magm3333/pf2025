@@ -1,9 +1,8 @@
 const fs=require('fs');
 fs.readFile('/etc/hosts',(err,contenido)=>{
-    if(!err) {
+    if (!err)
         console.log(contenido.toString());
-    } else {
-        console.log('Error leyendo archivo');
-    }
+    else
+        console.log('Error leyendo archivo');    
 });
-console.log('Otra cosa');
+console.log('Otra cosa.')

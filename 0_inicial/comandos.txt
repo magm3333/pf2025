@@ -1,0 +1,19 @@
+b=1
+_+2
+c=[1,2,3]
+d={}
+c=[1,{},3]
+[1,2,3]
+_.length
+_.toString()
+let a=0;
+a=0;
+const fs=require('fs')
+fs.readFileSync('/etc/hosts')
+fs.readFileSync('/etc/hosts').toString()
+const fn=(x)=>{
+let r=x*x;
+return r;
+}
+fn(3)
+global

@@ -1,8 +1,8 @@
 import fetch from 'node-fetch'; 
 
 const fetchUserData=async (cantidad=1)=>{
-    const respuestaHttp= await fetch(`https://randomuser.me/api/?results=${cantidad}`);
-    const datosJson= await respuestaHttp.json();
+    const respuesta= await fetch(`https://randomuser.me/api/?results=${cantidad}`);
+    const datosJson= await respuesta.json();
     return datosJson;
 }
 

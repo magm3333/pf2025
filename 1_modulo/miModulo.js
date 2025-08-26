@@ -3,6 +3,6 @@ const setVariable=(v)=>{variable=v;};
 const getVariable=()=>{return variable;};
 module.exports={
     setVariable:setVariable,
-    setV:setVariable,
-    getVariable:getVariable
-};
+    getVariable:getVariable,
+    setV:setVariable
+}
